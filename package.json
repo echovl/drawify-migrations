@@ -1,0 +1,32 @@
+{
+    "name": "drawify-migrations",
+    "version": "1.0.0",
+    "description": "",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "start": "ts-node --esm src/index.ts",
+        "build": "tsc",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/node": "^17.0.25",
+        "@typescript-eslint/eslint-plugin": "^5.19.0",
+        "@typescript-eslint/parser": "^5.19.0",
+        "dotenv": "^16.0.0",
+        "eslint": "^8.13.0",
+        "eslint-config-prettier": "^8.5.0",
+        "nanoid": "^3.3.3",
+        "prettier": "^2.6.2",
+        "ts-node": "^10.7.0",
+        "ts-node-dev": "^1.1.8",
+        "typescript": "^4.6.3"
+    },
+    "dependencies": {
+        "aws-sdk": "^2.1116.0",
+        "file-type": "^17.1.1"
+    }
+}
